@@ -1,0 +1,6 @@
+@BurmaProjectIdeas_HostAddress = http://localhost:5267
+
+GET {{BurmaProjectIdeas_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

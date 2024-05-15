@@ -5,6 +5,8 @@ namespace BurmaProjectIdeas.Commons
 {
     public class Common
     {
+        public static string birdRootPath { get; } = "https://github.com/sannlynnhtun-coding/Birds/tree/main";
+
         public async Task<T> GetDataAsync<T>(string fileName)
         {
             string basePath = AppDomain.CurrentDomain.BaseDirectory; // Get the base directory of the application
@@ -15,5 +17,13 @@ namespace BurmaProjectIdeas.Commons
             return model;
         }
 
+        private string AddRootPath(string imagePath)
+        {
+            if (string.IsNullOrEmpty(imagePath))
+            {
+                return imagePath;
+            }
+            return birdRootPath + imagePath;
+        }
     }
 }

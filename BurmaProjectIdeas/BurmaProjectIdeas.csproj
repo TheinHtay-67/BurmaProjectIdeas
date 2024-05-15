@@ -18,4 +18,27 @@
     <ProjectReference Include="..\BurmaProjectIdeas.Shared\BurmaProjectIdeas.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\Images\Birds\img\10_LineatedBarbet.jpg" />
+    <None Include="wwwroot\Images\Birds\img\11_Ashy-headedGreenPigeon.jpg" />
+    <None Include="wwwroot\Images\Birds\img\12_Chestnut-cappedlaughingthrush.jpg" />
+    <None Include="wwwroot\Images\Birds\img\13_Olive-backedSunbird.jpg" />
+    <None Include="wwwroot\Images\Birds\img\14_Black-napedMonarch.jpg" />
+    <None Include="wwwroot\Images\Birds\img\15_White-rumpedShama.jpg" />
+    <None Include="wwwroot\Images\Birds\img\16_Chestnut-tailedStarling.jpg" />
+    <None Include="wwwroot\Images\Birds\img\17_HoodedTreepie.jpg" />
+    <None Include="wwwroot\Images\Birds\img\18_BurmeseYuhina.jpg" />
+    <None Include="wwwroot\Images\Birds\img\19_Scaly-breastedMunia.jpg" />
+    <None Include="wwwroot\Images\Birds\img\1_Orange-belliedLeafbird.jpg" />
+    <None Include="wwwroot\Images\Birds\img\20_EurasianTreeSparrow.jpg" />
+    <None Include="wwwroot\Images\Birds\img\2_StorkbilledKingfisher.png" />
+    <None Include="wwwroot\Images\Birds\img\3_BlacknappedFruit Dove.png" />
+    <None Include="wwwroot\Images\Birds\img\4_BaliMyna.png" />
+    <None Include="wwwroot\Images\Birds\img\5_SavannaNightjar.png" />
+    <None Include="wwwroot\Images\Birds\img\6_Kingfisher.png" />
+    <None Include="wwwroot\Images\Birds\img\7_BluethroatedFlycatcher.jpg" />
+    <None Include="wwwroot\Images\Birds\img\8_HaircrestedDrongo.jpg" />
+    <None Include="wwwroot\Images\Birds\img\9_Black-hoodedOriole.jpg" />
+  </ItemGroup>
+
 </Project>

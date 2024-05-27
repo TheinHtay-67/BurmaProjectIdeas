@@ -34,7 +34,7 @@ namespace BurmaProjectIdeas.Features.Bird
         }
 
         [HttpGet("birds")]
-        public async Task<IActionResult> GridsAsync()
+        public async Task<IActionResult> BirdsAsync()
         {
             var model = await GetDataAsync();
             if (model is null)
@@ -59,7 +59,7 @@ namespace BurmaProjectIdeas.Features.Bird
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GridAsync(int id)
+        public async Task<IActionResult> BirdAsync(int id)
         {
             var model = await GetDataAsync();
             if (model is null)

@@ -14,7 +14,7 @@ namespace BurmaProjectIdeas.Commons
 
             string jsonStr = await System.IO.File.ReadAllTextAsync(filePath); // Read the JSON file asynchronously
             var model = JsonConvert.DeserializeObject<T>(jsonStr);
-            return model;
+            return model!;
         }
 
         private string AddRootPath(string imagePath)

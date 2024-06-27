@@ -11,6 +11,7 @@ namespace BurmaProjectIdeas.Features.LatHtaukBayDin
     public class LatHtaukBayDinController : ControllerBase
     {
         private readonly Common _common;
+
         public LatHtaukBayDinController()
         {
             _common = new Common();

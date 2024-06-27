@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurmaProjectIdeas", "BurmaProjectIdeas\BurmaProjectIdeas.csproj", "{6493E41D-DF00-47A0-971A-8E9C285A3CE7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurmaProjectIdeas.Shared", "BurmaProjectIdeas.Shared\BurmaProjectIdeas.Shared.csproj", "{A4FBCABE-4554-4EB7-9EB6-2D93439E2743}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BurmaProjectIdeas", "BurmaProjectIdeas\BurmaProjectIdeas.csproj", "{6493E41D-DF00-47A0-971A-8E9C285A3CE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{6493E41D-DF00-47A0-971A-8E9C285A3CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6493E41D-DF00-47A0-971A-8E9C285A3CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6493E41D-DF00-47A0-971A-8E9C285A3CE7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A4FBCABE-4554-4EB7-9EB6-2D93439E2743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4FBCABE-4554-4EB7-9EB6-2D93439E2743}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A4FBCABE-4554-4EB7-9EB6-2D93439E2743}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4FBCABE-4554-4EB7-9EB6-2D93439E2743}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

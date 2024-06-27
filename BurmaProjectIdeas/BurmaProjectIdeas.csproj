@@ -15,10 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BurmaProjectIdeas.Shared\BurmaProjectIdeas.Shared.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\Images\Birds\img\10_LineatedBarbet.jpg" />
     <None Include="wwwroot\Images\Birds\img\11_Ashy-headedGreenPigeon.jpg" />
     <None Include="wwwroot\Images\Birds\img\12_Chestnut-cappedlaughingthrush.jpg" />
